@@ -147,7 +147,6 @@ Optimize marketing based on age/location trends
 
 Make strategic, evidence-based decisions
 
-
 <img width="1091" height="616" alt="image" src="https://github.com/user-attachments/assets/fd858fb2-83f5-4fa7-9964-a8075187c4a8" />
 <img width="1090" height="616" alt="image" src="https://github.com/user-attachments/assets/0bf01642-9db6-4ec2-bc75-42a204b01a71" />
 <img width="1107" height="623" alt="image" src="https://github.com/user-attachments/assets/81d7cb01-7357-4358-b6b8-ed3e82c40340" />
