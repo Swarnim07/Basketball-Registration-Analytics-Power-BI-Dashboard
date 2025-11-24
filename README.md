@@ -3,40 +3,43 @@
 🏀 Basketball-Registration-Analytics-Power-BI-Dashboard
 🧩 Problem Statement
 
-A youth basketball academy has accumulated several years of player, family, and program registration data. However, they are unable to extract meaningful insights due to the following challenges:
+A youth basketball academy is looking to analyze player, family, and program registration data collected over several years. However, they are facing several challenges:
 
-❌ No visibility into key revenue drivers
+Difficulty identifying key revenue drivers
 
-❌ Difficulty identifying top-performing programs and locations
+Limited visibility into top-performing vs underperforming programs
 
-❌ Inability to analyze family (customer) spending patterns
+No clear insights into family (customer) spending patterns
 
-❌ No way to monitor year-over-year registrations or seasonal trends
+Inability to monitor year-over-year registrations or seasonal patterns
 
-❌ Lack of insights into player demographics (age groups, geographic distribution)
+No depth in understanding player demographics (age groups, states, cities)
 
-❌ No centralized dashboard to support strategic decisions
+No centralized dashboard to support data-driven decision making
 
-The organization needs a clean, interactive dashboard that helps them analyze:
+To overcome these challenges, the organization needs an interactive and unified Power BI dashboard that helps them analyze:
 
-✔ Revenue
+Revenue
 
-✔ Collections
+Collections
 
-✔ Program Performance
+Program Performance
 
-✔ Family/Customer Value
+Family / Customer Value
 
-✔ Player Demographics
+Player Demographics
 
-✔ Registration Trends
+Registration Trends
 
 ✅ Solution
 
-To address these challenges, I developed a 6-page interactive Power BI dashboard that provides complete visibility across registrations, revenue, programs, families, and demographics.
+To address the above problems, I developed a 6-page interactive Power BI dashboard that provides complete visibility across registrations, revenue, families, programs, and demographics.
 
-📌 Dashboard Capabilities
-1. Executive Overview
+The dashboard includes:
+
+📌 Executive Overview
+
+A high-level summary of organization performance including:
 
 Total Revenue
 
@@ -44,108 +47,134 @@ Outstanding Amount
 
 Total Registrations
 
-Active vs Inactive Players
+Active vs. Inactive Players
 
-Revenue by Location
+Revenue by Season & Location
 
 Monthly Revenue Trend
 
-2. Revenue & Collections
+📌 Revenue & Collections
 
-Collected vs Outstanding Amount (Over Time)
+Insights into the financial performance:
 
-Invoice Status Analysis
+Collected vs Outstanding Over Time
+
+Season-wise Revenue
 
 Program-wise Outstanding Amount
 
-Seasonal Revenue Trends
+Invoice Status Breakdown
 
-3. Program Performance
+Collection Rate %
 
-Top Programs by Enrollment
+📌 Program Performance
+
+Deep dive into program-level profitability & enrollment:
 
 Top Programs by Revenue
 
+Top Programs by Enrollment
+
 Program Fee vs Revenue (Scatter Plot)
 
-Program Revenue Trend (Year-wise)
+Year-over-Year Program Performance
 
-4. Family / Customer Analysis
+Average Program Fee
+
+📌 Family / Customer Analysis
+
+To understand high-value customers & loyalty:
 
 Top 10 Families by Revenue
 
-Lifetime Spend per Family
+Top 100 Customers List
 
 New vs Returning Families
 
 Retention Rate
 
-State/City-wise Family Distribution
+Family Revenue Distribution
 
-5. Player Demographics
+Family Count by Geography
 
-Age Distribution
+📌 Player Demographics
 
-Age Group Segmentation
+Breakdown of player profile and diversity:
+
+Total Players
+
+Average Age
 
 Distinct Cities & States
 
-Player Joining Trend
+Players by Age Group
 
-Geographic Distribution
+State-wise Player Distribution
 
-6. Registration Trends
+Player Trend Over Time
+
+📌 Registration Trends
+
+Complete time-based analytics:
+
+Total Registrations
 
 Current Year vs Last Year Registrations
 
-YoY Registration Growth
-
-Quarter-wise Trends
+Year-over-Year Growth %
 
 Season-wise Registrations
 
-Program Type Trends
+Program Type Breakdown
+
+Quarter-wise Registration Trend
 
 🧰 Tools & Skills Used
 
-Power BI: Data Modeling, DAX Measures, Interactive Visuals
+Power BI – DAX, Data Modeling, Visual Design, Measures
 
-Power Query: Data Cleaning, Type Conversion, Error Fixing
+Power Query – Data Cleaning, Type Conversion, Null Handling
 
-Excel: Initial data checks and validation
+Excel – Initial Data Verification
 
-DAX: CY/LY Calculations, YoY %, Retention Rate, Age Groups, Ranking, KPIs
+DAX Calculations – CY, LY, YoY Growth %, Active/Inactive Counts, Age Groups, Retention Rates
+
+Data Visualization Best Practices – Layout design, user-experience, insights clarity
 
 📊 Key Insights
 
-🏀 Participation peaked in 2023–2024 but declined in 2025 (YoY –38%)
+Registrations peaked in 2023–24 and dropped in the following year (YoY ~ –38%)
 
-💰 Top 5 programs contribute a significant portion of total revenue
+Half of the revenue comes from a few top programs, indicating clear winners
 
-👨‍👩‍👧‍👦 Small number of families account for high registration revenue, showing strong loyalty
+Family spending is highly concentrated, showing strong loyalty among top families
 
-👦👧 Age groups 9–11 and 12–14 dominate registrations, indicating ideal target demographic
+Age groups 9–11 and 12–14 dominate participation
 
-🌍 CT leads in player registrations, with other states contributing smaller proportions
+CT contributes the largest share of registered players
 
-📅 Spring and Fall seasons generate the highest participation
+Spring and Fall seasons consistently drive high enrollment
+
+Winter registrations show moderate but stable participation
 
 
 🚀 Conclusion
 
-This dashboard delivers a complete, dynamic, and data-driven view of the basketball academy’s performance across registrations, revenue, programs, family spending, and demographic distribution.
+This Power BI dashboard enables the basketball academy to:
 
-It enables the organization to:
+Identify the most profitable programs
 
-Identify revenue opportunities
+Improve customer retention and understand family spending
 
-Improve program planning
+Analyze player demographics for targeted program planning
 
-Strengthen customer retention
+Track revenue and registration performance over time
 
-Optimize marketing based on age/location trends
+Make informed, data-driven decisions
 
-Make strategic, evidence-based decisions
+Understand which seasons and program types maximize participation
+
+The dashboard transforms raw registration data into clear, actionable business intelligence.
 
 <img width="1091" height="616" alt="image" src="https://github.com/user-attachments/assets/fd858fb2-83f5-4fa7-9964-a8075187c4a8" />
 <img width="1090" height="616" alt="image" src="https://github.com/user-attachments/assets/0bf01642-9db6-4ec2-bc75-42a204b01a71" />
