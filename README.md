@@ -1,180 +1,119 @@
 # Basketball-Registration-Analytics-Power-BI-Dashboard
 
-🏀 Basketball-Registration-Analytics-Power-BI-Dashboard
-🧩 Problem Statement
+# 🏀 Basketball-Registration-Analytics-Power-BI-Dashboard
+
+---
+
+## 🧩 Problem Statement
+
+A youth basketball academy has accumulated several years of player, family, and program registration data. However, they are unable to extract meaningful insights due to the following challenges:
+
+- ❌ No visibility into key revenue drivers  
+- ❌ Difficulty identifying top-performing programs and locations  
+- ❌ Inability to analyze family (customer) spending patterns  
+- ❌ No way to monitor year-over-year registrations or seasonal patterns  
+- ❌ Lack of insights into player demographics (age groups, states, cities)  
+- ❌ No centralized dashboard to support data-driven decision making  
+
+The organization needs a **clean, interactive dashboard** that helps them analyze:
+
+- ✔ Revenue  
+- ✔ Collections  
+- ✔ Program Performance  
+- ✔ Family / Customer Value  
+- ✔ Player Demographics  
+- ✔ Registration Trends  
+
+---
+
+## ✅ Solution
+
+To address the above problems, I developed a **6-page interactive Power BI dashboard** that provides complete visibility across registrations, revenue, programs, families, and demographics.
+
+### 📌 Dashboard Capabilities
+
+#### 1. Executive Overview  
+- Total Revenue  
+- Outstanding Amount  
+- Total Registrations  
+- Active vs. Inactive Players  
+- Revenue by Season & Location  
+- Monthly Revenue Trend  
+
+#### 2. Revenue & Collections  
+- Collected vs Outstanding Over Time  
+- Season-wise Revenue  
+- Program-wise Outstanding Amount  
+- Invoice Status Breakdown  
+- Collection Rate %  
+
+#### 3. Program Performance  
+- Top Programs by Revenue  
+- Top Programs by Enrollment  
+- Program Fee vs Revenue (Scatter Plot)  
+- Year-over-Year Program Performance  
+- Average Program Fee  
+
+#### 4. Family / Customer Analysis  
+- Top 10 Families by Revenue  
+- Top 100 Customers List  
+- New vs Returning Families  
+- Retention Rate  
+- Family Revenue Distribution  
+- Family Count by Geography  
+
+#### 5. Player Demographics  
+- Total Players  
+- Average Age  
+- Distinct Cities & States  
+- Players by Age Group (6-8, 9-11, 12-14, 15+)  
+- State-wise Player Distribution  
+- Player Trend Over Time  
+
+#### 6. Registration Trends  
+- Total Registrations  
+- Current Year vs Last Year Registrations  
+- Year-over-Year Growth %  
+- Season-wise Registrations  
+- Program Type Breakdown  
+- Quarter-wise Registration Trend  
+
+---
+
+## 🧰 Tools & Skills Used
+
+- **Power BI** – DAX, Data Modeling, Interactive Visuals  
+- **Power Query** – Data Cleaning, Type Conversion, Null Handling  
+- **Excel** – Initial Data Verification  
+- **DAX Calculations** – CY, LY, YoY Growth %, Active/Inactive Counts, Age Groups, Retention Rates  
+- **Data Visualization Best Practices** – Layout Design, UX, Readability  
+
+---
+
+## 📊 Key Insights
+
+- 🏀 Registrations peaked in 2023–24 and dropped in 2025 (YoY ≈ –38 %)  
+- 💰 More than half of the revenue is driven by a small number of top programs  
+- 👨‍👩‍👧‍👦 A few families contribute a significant share of registration revenue, indicating strong loyalty  
+- 👦👧 Age groups 9-11 and 12-14 dominate participation  
+- 🌍 CT leads player registrations, other states contribute minimal volume  
+- 📅 Spring and Fall seasons show highest enrollment  
+- ❄️ Winter registrations remain moderate but stable  
+
+---
 
-A youth basketball academy is looking to analyze player, family, and program registration data collected over several years. However, they are facing several challenges:
+## 🚀 Conclusion
 
-Difficulty identifying key revenue drivers
+This Power BI dashboard delivers a comprehensive, dynamic, and user-friendly view of the basketball academy’s performance across revenue, registrations, programs, families, and player demographics. It enables the organization to:
 
-Limited visibility into top-performing vs underperforming programs
+- Identify the most profitable programs  
+- Strengthen family/customer retention  
+- Analyze player demographics for targeted program planning  
+- Track revenue and registration performance over time  
+- Make data-driven strategic decisions  
 
-No clear insights into family (customer) spending patterns
+The dashboard transforms raw registration and program data into **clear, actionable business intelligence**.
 
-Inability to monitor year-over-year registrations or seasonal patterns
-
-No depth in understanding player demographics (age groups, states, cities)
-
-No centralized dashboard to support data-driven decision making
-
-To overcome these challenges, the organization needs an interactive and unified Power BI dashboard that helps them analyze:
-
-Revenue
-
-Collections
-
-Program Performance
-
-Family / Customer Value
-
-Player Demographics
-
-Registration Trends
-
-✅ Solution
-
-To address the above problems, I developed a 6-page interactive Power BI dashboard that provides complete visibility across registrations, revenue, families, programs, and demographics.
-
-The dashboard includes:
-
-📌 Executive Overview
-
-A high-level summary of organization performance including:
-
-Total Revenue
-
-Outstanding Amount
-
-Total Registrations
-
-Active vs. Inactive Players
-
-Revenue by Season & Location
-
-Monthly Revenue Trend
-
-📌 Revenue & Collections
-
-Insights into the financial performance:
-
-Collected vs Outstanding Over Time
-
-Season-wise Revenue
-
-Program-wise Outstanding Amount
-
-Invoice Status Breakdown
-
-Collection Rate %
-
-📌 Program Performance
-
-Deep dive into program-level profitability & enrollment:
-
-Top Programs by Revenue
-
-Top Programs by Enrollment
-
-Program Fee vs Revenue (Scatter Plot)
-
-Year-over-Year Program Performance
-
-Average Program Fee
-
-📌 Family / Customer Analysis
-
-To understand high-value customers & loyalty:
-
-Top 10 Families by Revenue
-
-Top 100 Customers List
-
-New vs Returning Families
-
-Retention Rate
-
-Family Revenue Distribution
-
-Family Count by Geography
-
-📌 Player Demographics
-
-Breakdown of player profile and diversity:
-
-Total Players
-
-Average Age
-
-Distinct Cities & States
-
-Players by Age Group
-
-State-wise Player Distribution
-
-Player Trend Over Time
-
-📌 Registration Trends
-
-Complete time-based analytics:
-
-Total Registrations
-
-Current Year vs Last Year Registrations
-
-Year-over-Year Growth %
-
-Season-wise Registrations
-
-Program Type Breakdown
-
-Quarter-wise Registration Trend
-
-🧰 Tools & Skills Used
-
-Power BI – DAX, Data Modeling, Visual Design, Measures
-
-Power Query – Data Cleaning, Type Conversion, Null Handling
-
-Excel – Initial Data Verification
-
-DAX Calculations – CY, LY, YoY Growth %, Active/Inactive Counts, Age Groups, Retention Rates
-
-Data Visualization Best Practices – Layout design, user-experience, insights clarity
-
-📊 Key Insights
-
-Registrations peaked in 2023–24 and dropped in the following year (YoY ~ –38%)
-
-Half of the revenue comes from a few top programs, indicating clear winners
-
-Family spending is highly concentrated, showing strong loyalty among top families
-
-Age groups 9–11 and 12–14 dominate participation
-
-CT contributes the largest share of registered players
-
-Spring and Fall seasons consistently drive high enrollment
-
-Winter registrations show moderate but stable participation
-
-
-🚀 Conclusion
-
-This Power BI dashboard enables the basketball academy to:
-
-Identify the most profitable programs
-
-Improve customer retention and understand family spending
-
-Analyze player demographics for targeted program planning
-
-Track revenue and registration performance over time
-
-Make informed, data-driven decisions
-
-Understand which seasons and program types maximize participation
-
-The dashboard transforms raw registration data into clear, actionable business intelligence.
 
 <img width="1091" height="616" alt="image" src="https://github.com/user-attachments/assets/fd858fb2-83f5-4fa7-9964-a8075187c4a8" />
 <img width="1090" height="616" alt="image" src="https://github.com/user-attachments/assets/0bf01642-9db6-4ec2-bc75-42a204b01a71" />
